@@ -6,7 +6,7 @@ dump_symbols()
 }
 
 rel=common
-for i in libnativehelper;do
+for i in libskia libssl libcrypto libutils libcutils libui libgui libhardware libmedia libandroid_runtime libbinder liblog libnativehelper libstagefright;do
 	echo "// generated C file; do not modify; see dump-libs.sh" > $rel/$i.c
 	for s in `dump_symbols $rel/$i.so`; do echo "void $s() {}" >> $rel/$i.c; done
 done
