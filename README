@@ -5,5 +5,5 @@ android dependencies during build process. True android libs will be linked
 with libs from device (/system/lib/*so).
 
 HOW TO:
-add "include $(NDK_ROOT)/../android-libs/ndkbuild.mk" after setting LOCAL_MODULE
+add "include $(BUILD_ANDROID_LIBS)" after setting LOCAL_MODULE
 add "LOCAL_LDLIBS += -L$(TARGET_OUT)"
