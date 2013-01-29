@@ -2,7 +2,7 @@ ifeq (,$(LOCAL_MODULE))
 $(error LOCAL_MODULE not defined)
 endif
 
-ANDROID_LIBS := $(NDK_ROOT)/../android-libs
+ANDROID_LIBS := $(REPO_TOP_DIR)/android-libs
 
 COMMON_LIBS := \
 	libutils \
