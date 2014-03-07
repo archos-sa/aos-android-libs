@@ -1,12 +1,7 @@
 // generated C file; do not modify; see dump-libs.sh
 void _Z15registerJniHelpP7_JNIEnv() {}
 void _Z24jniRegisterSystemMethodsP7_JNIEnv() {}
-void __bss_end__() {}
-void __bss_start() {}
-void __bss_start__() {}
 void __data_start() {}
-void __end__() {}
-void __exidx_end() {}
 void __exidx_start() {}
 void __ieee754_acos() {}
 void __ieee754_asin() {}
@@ -27,9 +22,6 @@ void __kernel_rem_pio2() {}
 void __kernel_sin() {}
 void __kernel_standard() {}
 void __kernel_tan() {}
-void _bss_end__() {}
-void _edata() {}
-void _end() {}
 void _fdlib_version() {}
 void _stack() {}
 void ieee_acos() {}

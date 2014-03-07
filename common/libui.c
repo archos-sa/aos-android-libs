@@ -401,16 +401,8 @@ void _ZTVN7android6VectorINS_15KeyCharacterMap6Parser8PropertyEEE() {}
 void _ZTVN7android6VectorINS_20VirtualKeyDefinitionEEE() {}
 void _ZTVN7android6VectorINS_4RectEEE() {}
 void __ashldi3() {}
-void __bss_end__() {}
-void __bss_start() {}
-void __bss_start__() {}
 void __data_start() {}
-void __end__() {}
-void __exidx_end() {}
 void __exidx_start() {}
 void __popcountdi2() {}
-void _bss_end__() {}
-void _edata() {}
-void _end() {}
 void _stack() {}
 void android_createDisplaySurface() {}

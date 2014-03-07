@@ -244,16 +244,8 @@ void TLSv1_client_method() {}
 void TLSv1_enc_data() {}
 void TLSv1_method() {}
 void TLSv1_server_method() {}
-void __bss_end__() {}
-void __bss_start() {}
-void __bss_start__() {}
 void __data_start() {}
-void __end__() {}
-void __exidx_end() {}
 void __exidx_start() {}
-void _bss_end__() {}
-void _edata() {}
-void _end() {}
 void _stack() {}
 void d2i_SSL_SESSION() {}
 void i2d_SSL_SESSION() {}

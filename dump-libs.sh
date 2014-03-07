@@ -2,7 +2,7 @@
 
 dump_symbols()
 {
-	nm -D $1 | awk '{print $3}' | grep -v '^__aeabi\|__FINI_ARRAY__\|__INIT_ARRAY__\|__dso_handle'
+	nm -D $1 | awk '{print $3}' | grep -v '^__aeabi\|__FINI_ARRAY__\|__INIT_ARRAY__\|__dso_handle\|__bss_\|_end\|_edata\|__on_dlclose'
 }
 
 rel=common

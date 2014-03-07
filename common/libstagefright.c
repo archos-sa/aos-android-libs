@@ -248,7 +248,6 @@ void FLAC__bitreader_read_raw_uint32() {}
 void FLAC__bitreader_read_raw_uint64() {}
 void FLAC__bitreader_read_rice_signed() {}
 void FLAC__bitreader_read_rice_signed_block() {}
-void FLAC__bitreader_read_uint32_little_endian() {}
 void FLAC__bitreader_read_unary_unsigned() {}
 void FLAC__bitreader_read_utf8_uint32() {}
 void FLAC__bitreader_read_utf8_uint64() {}
@@ -311,8 +310,6 @@ void FLAC__stream_decoder_init_ogg_stream() {}
 void FLAC__stream_decoder_init_stream() {}
 void FLAC__stream_decoder_new() {}
 void FLAC__stream_decoder_process_single() {}
-void FLAC__stream_decoder_process_until_end_of_metadata() {}
-void FLAC__stream_decoder_process_until_end_of_stream() {}
 void FLAC__stream_decoder_reset() {}
 void FLAC__stream_decoder_seek_absolute() {}
 void FLAC__stream_decoder_set_md5_checking() {}
@@ -3195,16 +3192,8 @@ void _ZTv0_n12_NSoD0Ev() {}
 void _ZTv0_n12_NSoD1Ev() {}
 void _ZTv0_n12_NSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED0Ev() {}
 void _ZTv0_n12_NSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev() {}
-void __bss_end__() {}
-void __bss_start() {}
-void __bss_start__() {}
 void __data_start() {}
-void __end__() {}
-void __exidx_end() {}
 void __exidx_start() {}
-void _bss_end__() {}
-void _edata() {}
-void _end() {}
 void _stack() {}
 void bitCount() {}
 void bitCountScalefactorDelta() {}

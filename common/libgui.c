@@ -738,14 +738,6 @@ void _ZTv0_n12_ZN7android20BnGraphicBufferAlloc10onTransactEjRKNS_6ParcelEPS1_jE
 void _ZTv0_n12_ZN7android20BnGraphicBufferAlloc10onTransactEjRKNS_6ParcelEPS1_jEN15BufferReferenceD1Ev() {}
 void _ZTv0_n12_ZNK7android13SensorManager17assertStateLockedEvEN13DeathObserverD0Ev() {}
 void _ZTv0_n12_ZNK7android13SensorManager17assertStateLockedEvEN13DeathObserverD1Ev() {}
-void __bss_end__() {}
-void __bss_start() {}
-void __bss_start__() {}
 void __data_start() {}
-void __end__() {}
-void __exidx_end() {}
 void __exidx_start() {}
-void _bss_end__() {}
-void _edata() {}
-void _end() {}
 void _stack() {}

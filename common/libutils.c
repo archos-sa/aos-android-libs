@@ -924,17 +924,9 @@ void _ZTv0_n12_N7android18WeakMessageHandlerD0Ev() {}
 void _ZTv0_n12_N7android18WeakMessageHandlerD1Ev() {}
 void _ZTv0_n12_N7android6ThreadD0Ev() {}
 void _ZTv0_n12_N7android6ThreadD1Ev() {}
-void __bss_end__() {}
-void __bss_start() {}
-void __bss_start__() {}
 void __data_start() {}
-void __end__() {}
-void __exidx_end() {}
 void __exidx_start() {}
 void __lshrdi3() {}
-void _bss_end__() {}
-void _edata() {}
-void _end() {}
 void _stack() {}
 void androidCreateRawThreadEtc() {}
 void androidCreateThread() {}

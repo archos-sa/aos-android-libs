@@ -3523,10 +3523,6 @@ void _ZgtR9VertexPtrS0_() {}
 void _ZltR9VertexPtrS0_() {}
 void _ZltRK7SkPointS1_() {}
 void _ZneRKN11SkClipStack7B2FIter4ClipES3_() {}
-void __bss_start() {}
-void __on_dlclose() {}
-void _edata() {}
-void _end() {}
 void af_autofitter_service() {}
 void af_cjk_script_class() {}
 void af_dummy_script_class() {}
@@ -3703,7 +3699,6 @@ void png_pass_yinc() {}
 void png_pass_ystart() {}
 void png_permit_empty_plte() {}
 void png_permit_mng_features() {}
-void png_read_end() {}
 void png_read_image() {}
 void png_read_info() {}
 void png_read_init() {}
@@ -3805,9 +3800,7 @@ void png_tRNS() {}
 void png_warning() {}
 void png_write_chunk() {}
 void png_write_chunk_data() {}
-void png_write_chunk_end() {}
 void png_write_chunk_start() {}
-void png_write_end() {}
 void png_write_flush() {}
 void png_write_image() {}
 void png_write_info() {}

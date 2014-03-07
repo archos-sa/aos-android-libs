@@ -829,17 +829,9 @@ void _ZTv0_n12_N7android24JNISurfaceTextureContextD0Ev() {}
 void _ZTv0_n12_N7android24JNISurfaceTextureContextD1Ev() {}
 void _ZTv0_n12_N7android7IBinder14DeathRecipientD0Ev() {}
 void _ZTv0_n12_N7android7IBinder14DeathRecipientD1Ev() {}
-void __bss_end__() {}
-void __bss_start() {}
-void __bss_start__() {}
 void __ctzdi2() {}
 void __data_start() {}
-void __end__() {}
-void __exidx_end() {}
 void __exidx_start() {}
-void _bss_end__() {}
-void _edata() {}
-void _end() {}
 void _get_mountpoint() {}
 void _stack() {}
 void add_flash_plugin() {}

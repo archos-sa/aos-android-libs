@@ -164,8 +164,6 @@ void ASN1_VISIBLESTRING_it() {}
 void ASN1_VISIBLESTRING_new() {}
 void ASN1_add_oid_module() {}
 void ASN1_bn_print() {}
-void ASN1_check_infinite_end() {}
-void ASN1_const_check_infinite_end() {}
 void ASN1_d2i_bio() {}
 void ASN1_d2i_fp() {}
 void ASN1_digest() {}
@@ -357,7 +355,6 @@ void BN_BLINDING_set_flags() {}
 void BN_BLINDING_set_thread_id() {}
 void BN_BLINDING_thread_id() {}
 void BN_BLINDING_update() {}
-void BN_CTX_end() {}
 void BN_CTX_free() {}
 void BN_CTX_get() {}
 void BN_CTX_init() {}
@@ -1532,7 +1529,6 @@ void OCSP_sendreq_nbio() {}
 void OCSP_sendreq_new() {}
 void OCSP_single_get0_status() {}
 void OCSP_url_svcloc_new() {}
-void OPENSSL_DIR_end() {}
 void OPENSSL_DIR_read() {}
 void OPENSSL_NONPIC_relocated() {}
 void OPENSSL_add_all_algorithms_conf() {}
@@ -2526,17 +2522,9 @@ void _CONF_get_section_values() {}
 void _CONF_get_string() {}
 void _CONF_new_data() {}
 void _CONF_new_section() {}
-void __bss_end__() {}
-void __bss_start() {}
-void __bss_start__() {}
 void __data_start() {}
-void __end__() {}
-void __exidx_end() {}
 void __exidx_start() {}
-void _bss_end__() {}
 void _des_crypt() {}
-void _edata() {}
-void _end() {}
 void _ossl_096_des_random_seed() {}
 void _ossl_old_crypt() {}
 void _ossl_old_des_cbc_cksum() {}
