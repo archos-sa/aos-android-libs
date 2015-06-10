@@ -22,7 +22,7 @@ COMMON_LIBS := \
 
 define gen_lib
 $(TARGET_OUT)/$(1).so: $(ANDROID_LIBS_DIR)/common/$(1).c
-	$(TARGET_CC) $(ANDROID_LIBS_DIR)/common/$(1).c -shared -o $(TARGET_OUT)/$(1).so --sysroot=${NDK_ROOT}/platforms/$(TARGET_PLATFORM)/arch-$(TARGET_ARCH)
+	$(TARGET_CC) $(ANDROID_LIBS_DIR)/common/$(1).c -shared -o $(TARGET_OUT)/$(1).so --sysroot=${NDK_ROOT}/platforms/$(TARGET_PLATFORM)/arch-$(TARGET_ARCH) $(TARGET_CFLAGS)
 endef
 
 $(TARGET_OUT)/$(LOCAL_MODULE).so: $(addsuffix .so, $(addprefix $(TARGET_OUT)/, $(COMMON_LIBS)))
